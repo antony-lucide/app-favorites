@@ -1,0 +1,154 @@
+*{
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;
+    justify-content: center; */
+}
+
+.Embed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #eae7e7, #0b7cb4 50%, #0b7cb4 75%, #0b7cb4 75%);
+    width: 100%;
+}
+
+.Embed img{
+    width: 20vh;
+}
+
+.Navigation{
+    background-color: gray;
+    display: flex;
+    height: 8vh;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    box-shadow: -1px -1px 3px #020202, 
+    2px 2px 4px #1b1b1b;
+}
+
+  a {
+    text-decoration: none;
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #000 50%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+  
+  a:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+  
+  a:hover {
+   background-position: 0;
+}
+  
+  a:hover::before{
+    width: 100%;
+}
+
+main{
+    background-image: url('./Images/michael.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height:  141vh;
+}
+
+.Documents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid white;
+    padding: 50px;
+    margin: 159px;
+    border-radius: 10px;
+    height: 60vh;
+    width: 149vh;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28vh;
+    /* top: 1; */
+    background-image: linear-gradient(to right, #232b37, #152a31, #0f2827, #13241b, #1b1f0f);
+}
+
+.Download{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+
+main h1{
+    text-align: center;
+}
+
+.Dir{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border-top: 10px solid rgb(9, 160, 220);
+    border-bottom:10px solid rgb(9, 160, 220);
+}
+
+.Dir img{
+    width: 30vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.Present{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid rgb(9, 160, 220);
+    border-style: double;
+    gap: 2em;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.Present img iframe{
+    width: 21vh;
+}
