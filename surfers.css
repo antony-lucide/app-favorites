@@ -127,7 +127,7 @@ footer{
     border: 1px solid black;
     border-radius: 10px;
     width: 78vh;
-    height: 48vh;
+    height: 50vh;
     background: linear-gradient(90deg, rgba(242,233,30,1) 35%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%); 
     flex-direction: column;
     box-shadow: 0 0 5px 5px rgb(201, 231, 9);
@@ -159,4 +159,8 @@ footer{
     width: 40vh;
     border-radius: 50px;
     box-shadow: 0 0 5px 5px rgb(201, 231, 9);
+}
+
+.Titre a{
+    font-size: larger;
 }
